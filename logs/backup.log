@@ -1,0 +1,12 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_e665fef497561cc7 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e665fef497561cc7 | /usr/bin/gzip >> ./glao.test/private/backups/20260225_120002-glao_test-database.sql.gz
+
+Backup Summary for glao.test at 2026-02-25 12:00:03.137680
+Config  : /home/kraus/SPIE_APP/dev/SPIE_APP_1/sites/glao.test/private/backups/20260225_120002-glao_test-site_config_backup.json 194.0B
+Database: /home/kraus/SPIE_APP/dev/SPIE_APP_1/sites/glao.test/private/backups/20260225_120002-glao_test-database.sql.gz 329.9KiB
+Backup for Site glao.test has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_e665fef497561cc7 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e665fef497561cc7 | /usr/bin/gzip >> ./glao.test/private/backups/20260226_120001-glao_test-database.sql.gz
+
+Backup Summary for glao.test at 2026-02-26 12:00:02.798100
+Config  : /home/kraus/SPIE_APP/dev/SPIE_APP_1/sites/glao.test/private/backups/20260226_120001-glao_test-site_config_backup.json 194.0B
+Database: /home/kraus/SPIE_APP/dev/SPIE_APP_1/sites/glao.test/private/backups/20260226_120001-glao_test-database.sql.gz 349.8KiB
+Backup for Site glao.test has been successfully completed

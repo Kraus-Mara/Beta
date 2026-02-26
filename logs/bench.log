@@ -1,0 +1,196 @@
+2026-02-23 12:22:10,823 DEBUG cd SPIE_APP_1 && uv venv env --seed --python python3
+2026-02-23 12:22:10,950 LOG Getting frappe
+2026-02-23 12:22:10,951 DEBUG cd SPIE_APP_1/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2026-02-23 12:22:14,955 LOG Installing frappe
+2026-02-23 12:22:14,956 DEBUG cd /home/kraus/SPIE_APP/dev/SPIE_APP_1 && uv pip install --quiet --upgrade -e /home/kraus/SPIE_APP/dev/SPIE_APP_1/apps/frappe  --python /home/kraus/SPIE_APP/dev/SPIE_APP_1/env/bin/python
+2026-02-23 12:22:16,936 DEBUG cd /home/kraus/SPIE_APP/dev/SPIE_APP_1/apps/frappe && yarn install --check-files
+2026-02-23 12:22:29,461 DEBUG cd SPIE_APP_1 && bench build
+2026-02-23 12:22:29,582 INFO /home/kraus/.local/bin/bench build
+2026-02-23 12:22:48,317 LOG setting up backups
+2026-02-23 12:22:48,357 LOG backups were set up
+2026-02-23 12:22:48,357 INFO Bench SPIE_APP_1 initialized
+2026-02-23 12:22:48,525 INFO A newer version of bench is available: 5.29.0 → 5.29.1
+2026-02-23 12:23:45,868 INFO /home/kraus/.local/bin/bench new-app glao_app
+2026-02-23 12:23:45,871 LOG creating new app glao_app
+2026-02-23 12:24:00,548 LOG Installing glao_app
+2026-02-23 12:24:00,548 DEBUG cd /home/kraus/SPIE_APP/dev/SPIE_APP_1 && uv pip install --quiet --upgrade -e /home/kraus/SPIE_APP/dev/SPIE_APP_1/apps/glao_app  --python /home/kraus/SPIE_APP/dev/SPIE_APP_1/env/bin/python
+2026-02-23 12:24:00,977 DEBUG bench build --app glao_app
+2026-02-23 12:24:01,083 INFO /home/kraus/.local/bin/bench build --app glao_app
+2026-02-23 12:24:02,958 INFO A newer version of bench is available: 5.29.0 → 5.29.1
+2026-02-23 12:24:58,396 INFO /home/kraus/.local/bin/bench build --app glao_app
+2026-02-23 12:26:11,157 INFO /home/kraus/.local/bin/bench new-site glao.test
+2026-02-23 12:27:40,163 INFO /home/kraus/.local/bin/bench use glao.test
+2026-02-23 12:27:46,656 INFO /home/kraus/.local/bin/bench add-to-hosts
+2026-02-23 12:28:24,579 INFO /home/kraus/.local/bin/bench install-app glao_app
+2026-02-23 12:28:34,419 INFO /home/kraus/.local/bin/bench list-apps
+2026-02-23 12:29:44,902 INFO /home/kraus/.local/bin/bench start
+2026-02-23 12:29:45,186 INFO /home/kraus/.local/bin/bench schedule
+2026-02-23 12:29:45,186 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-23 12:29:45,192 INFO /home/kraus/.local/bin/bench worker
+2026-02-23 12:29:45,205 INFO /home/kraus/.local/bin/bench watch
+2026-02-23 12:40:10,881 INFO /home/kraus/.local/bin/bench start
+2026-02-23 12:40:11,151 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-23 12:40:11,152 INFO /home/kraus/.local/bin/bench watch
+2026-02-23 12:40:11,153 INFO /home/kraus/.local/bin/bench worker
+2026-02-23 12:40:11,159 INFO /home/kraus/.local/bin/bench schedule
+2026-02-23 12:43:36,033 INFO /home/kraus/.local/bin/bench migrate
+2026-02-23 12:48:04,839 INFO /home/kraus/.local/bin/bench start
+2026-02-23 12:48:05,129 INFO /home/kraus/.local/bin/bench schedule
+2026-02-23 12:48:05,133 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-23 12:48:05,136 INFO /home/kraus/.local/bin/bench watch
+2026-02-23 12:48:05,143 INFO /home/kraus/.local/bin/bench worker
+2026-02-23 12:50:49,123 INFO /home/kraus/.local/bin/bench set-config -g developer_mode 1
+2026-02-23 12:50:56,262 INFO /home/kraus/.local/bin/bench start
+2026-02-23 12:50:56,542 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-23 12:50:56,554 INFO /home/kraus/.local/bin/bench watch
+2026-02-23 12:50:56,560 INFO /home/kraus/.local/bin/bench schedule
+2026-02-23 12:50:56,567 INFO /home/kraus/.local/bin/bench worker
+2026-02-23 13:01:01,072 INFO /home/kraus/.local/bin/bench migrate
+2026-02-23 13:14:10,197 INFO /home/kraus/.local/bin/bench migrate
+2026-02-23 14:24:54,470 INFO /home/kraus/.local/bin/bench staty
+2026-02-23 14:24:57,186 INFO /home/kraus/.local/bin/bench start
+2026-02-23 14:24:57,512 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-23 14:24:57,523 INFO /home/kraus/.local/bin/bench watch
+2026-02-23 14:24:57,524 INFO /home/kraus/.local/bin/bench schedule
+2026-02-23 14:24:57,525 INFO /home/kraus/.local/bin/bench worker
+2026-02-23 14:32:13,326 INFO /home/kraus/.local/bin/bench start
+2026-02-23 14:32:13,671 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-23 14:32:13,676 INFO /home/kraus/.local/bin/bench schedule
+2026-02-23 14:32:13,694 INFO /home/kraus/.local/bin/bench watch
+2026-02-23 14:32:13,714 INFO /home/kraus/.local/bin/bench worker
+2026-02-23 14:41:53,342 INFO /home/kraus/.local/bin/bench start
+2026-02-23 14:41:53,641 INFO /home/kraus/.local/bin/bench schedule
+2026-02-23 14:41:53,644 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-23 14:41:53,664 INFO /home/kraus/.local/bin/bench watch
+2026-02-23 14:41:53,665 INFO /home/kraus/.local/bin/bench worker
+2026-02-23 14:48:42,469 INFO /home/kraus/.local/bin/bench start
+2026-02-23 14:48:42,777 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-23 14:48:42,780 INFO /home/kraus/.local/bin/bench worker
+2026-02-23 14:48:42,787 INFO /home/kraus/.local/bin/bench watch
+2026-02-23 14:48:42,790 INFO /home/kraus/.local/bin/bench schedule
+2026-02-23 14:58:50,018 INFO /home/kraus/.local/bin/bench start
+2026-02-23 14:58:50,327 INFO /home/kraus/.local/bin/bench watch
+2026-02-23 14:58:50,337 INFO /home/kraus/.local/bin/bench schedule
+2026-02-23 14:58:50,341 INFO /home/kraus/.local/bin/bench worker
+2026-02-23 14:58:50,342 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-23 14:59:53,285 INFO /home/kraus/.local/bin/bench start
+2026-02-23 14:59:53,616 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-23 14:59:53,620 INFO /home/kraus/.local/bin/bench watch
+2026-02-23 14:59:53,635 INFO /home/kraus/.local/bin/bench schedule
+2026-02-23 14:59:53,643 INFO /home/kraus/.local/bin/bench worker
+2026-02-23 15:00:20,176 INFO /home/kraus/.local/bin/bench start
+2026-02-23 15:00:20,518 INFO /home/kraus/.local/bin/bench worker
+2026-02-23 15:00:20,529 INFO /home/kraus/.local/bin/bench watch
+2026-02-23 15:00:20,530 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-23 15:00:20,530 INFO /home/kraus/.local/bin/bench schedule
+2026-02-23 15:13:37,591 INFO /home/kraus/.local/bin/bench start
+2026-02-23 15:13:37,885 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-23 15:13:37,890 INFO /home/kraus/.local/bin/bench schedule
+2026-02-23 15:13:37,893 INFO /home/kraus/.local/bin/bench worker
+2026-02-23 15:13:37,893 INFO /home/kraus/.local/bin/bench watch
+2026-02-23 15:13:59,322 INFO /home/kraus/.local/bin/bench start
+2026-02-23 15:15:40,284 INFO /home/kraus/.local/bin/bench start
+2026-02-23 15:15:59,503 INFO /home/kraus/.local/bin/bench start
+2026-02-23 15:26:28,062 INFO /home/kraus/.local/bin/bench start
+2026-02-23 15:26:28,407 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-23 15:26:28,417 INFO /home/kraus/.local/bin/bench schedule
+2026-02-23 15:26:28,418 INFO /home/kraus/.local/bin/bench worker
+2026-02-23 15:26:28,419 INFO /home/kraus/.local/bin/bench watch
+2026-02-25 09:03:21,180 INFO /home/kraus/.local/bin/bench start
+2026-02-25 09:03:21,532 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-25 09:03:21,534 INFO /home/kraus/.local/bin/bench watch
+2026-02-25 09:03:21,549 INFO /home/kraus/.local/bin/bench schedule
+2026-02-25 09:03:21,555 INFO /home/kraus/.local/bin/bench worker
+2026-02-25 09:18:19,341 INFO /home/kraus/.local/bin/bench start
+2026-02-25 09:18:19,637 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-25 09:18:19,648 INFO /home/kraus/.local/bin/bench schedule
+2026-02-25 09:18:19,652 INFO /home/kraus/.local/bin/bench watch
+2026-02-25 09:18:19,660 INFO /home/kraus/.local/bin/bench worker
+2026-02-25 09:32:07,039 INFO /home/kraus/.local/bin/bench migrate
+2026-02-25 09:32:13,832 INFO /home/kraus/.local/bin/bench clear-cache
+2026-02-25 09:32:14,930 INFO /home/kraus/.local/bin/bench clear-website-cache
+2026-02-25 09:44:35,906 INFO /home/kraus/.local/bin/bench migrate
+2026-02-25 09:44:41,823 INFO /home/kraus/.local/bin/bench clear-cache
+2026-02-25 09:44:42,945 INFO /home/kraus/.local/bin/bench clear-website-cache
+2026-02-25 10:22:34,406 INFO /home/kraus/.local/bin/bench migrate
+2026-02-25 10:22:40,406 INFO /home/kraus/.local/bin/bench clear-cache
+2026-02-25 10:22:41,530 INFO /home/kraus/.local/bin/bench clear-website-cache
+2026-02-25 10:28:13,397 INFO /home/kraus/.local/bin/bench migrate
+2026-02-25 10:28:19,224 INFO /home/kraus/.local/bin/bench clear-cache
+2026-02-25 10:28:20,340 INFO /home/kraus/.local/bin/bench clear-website-cache
+2026-02-25 10:38:16,510 INFO /home/kraus/.local/bin/bench start
+2026-02-25 10:38:16,826 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-25 10:38:16,828 INFO /home/kraus/.local/bin/bench watch
+2026-02-25 10:38:16,831 INFO /home/kraus/.local/bin/bench schedule
+2026-02-25 10:38:16,853 INFO /home/kraus/.local/bin/bench worker
+2026-02-25 11:07:35,608 INFO /home/kraus/.local/bin/bench migrate
+2026-02-25 11:07:43,664 INFO /home/kraus/.local/bin/bench clear-cache
+2026-02-25 11:07:44,843 INFO /home/kraus/.local/bin/bench clear-website-cache
+2026-02-25 11:11:49,881 INFO /home/kraus/.local/bin/bench migrate
+2026-02-25 11:11:55,692 INFO /home/kraus/.local/bin/bench clear-cache
+2026-02-25 11:11:54,472 INFO /home/kraus/.local/bin/bench clear-website-cache
+2026-02-25 12:00:02,038 INFO /home/kraus/.local/bin/bench --verbose --site all backup
+2026-02-25 13:51:18,906 INFO /home/kraus/.local/bin/bench start
+2026-02-25 13:51:19,233 INFO /home/kraus/.local/bin/bench watch
+2026-02-25 13:51:19,235 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-25 13:51:19,237 INFO /home/kraus/.local/bin/bench schedule
+2026-02-25 13:51:19,248 INFO /home/kraus/.local/bin/bench worker
+2026-02-25 13:56:11,737 INFO /home/kraus/.local/bin/bench migrate
+2026-02-25 13:57:36,443 INFO /home/kraus/.local/bin/bench migrate
+2026-02-25 13:58:10,966 INFO /home/kraus/.local/bin/bench migrate
+2026-02-25 13:59:22,735 INFO /home/kraus/.local/bin/bench migrate
+2026-02-25 13:59:32,466 INFO /home/kraus/.local/bin/bench migrate
+2026-02-26 10:33:58,682 INFO /home/kraus/.local/bin/bench export-fixtures --app glao_app
+2026-02-26 10:34:56,844 INFO /home/kraus/.local/bin/bench export-fixtures --app glao_app
+2026-02-26 10:54:25,311 INFO /home/kraus/.local/bin/bench start
+2026-02-26 10:54:25,632 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-26 10:54:25,642 INFO /home/kraus/.local/bin/bench schedule
+2026-02-26 10:54:25,646 INFO /home/kraus/.local/bin/bench watch
+2026-02-26 10:54:25,655 INFO /home/kraus/.local/bin/bench worker
+2026-02-26 11:25:05,780 INFO /home/kraus/.local/bin/bench --site export-fixtures --app glao_app
+2026-02-26 11:25:11,406 INFO /home/kraus/.local/bin/bench --site export-fixtures --app glao_app
+2026-02-26 11:25:17,152 INFO /home/kraus/.local/bin/bench export-fixtures --app glao_app
+2026-02-26 11:27:04,956 INFO /home/kraus/.local/bin/bench execute frappe.utils.fixtures.sync_fixtures
+2026-02-26 12:00:01,009 INFO /home/kraus/.local/bin/bench --verbose --site all backup
+2026-02-26 13:00:31,479 INFO /home/kraus/.local/bin/bench start
+2026-02-26 13:00:31,868 INFO /home/kraus/.local/bin/bench schedule
+2026-02-26 13:00:31,868 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-26 13:00:31,873 INFO /home/kraus/.local/bin/bench watch
+2026-02-26 13:00:31,875 INFO /home/kraus/.local/bin/bench worker
+2026-02-26 13:17:07,904 INFO /home/kraus/.local/bin/bench start
+2026-02-26 13:17:08,255 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-26 13:17:08,256 INFO /home/kraus/.local/bin/bench watch
+2026-02-26 13:17:08,259 INFO /home/kraus/.local/bin/bench worker
+2026-02-26 13:17:08,261 INFO /home/kraus/.local/bin/bench schedule
+2026-02-26 13:18:35,519 INFO /home/kraus/.local/bin/bench start
+2026-02-26 13:18:54,021 INFO /home/kraus/.local/bin/bench start
+2026-02-26 13:18:54,338 INFO /home/kraus/.local/bin/bench watch
+2026-02-26 13:18:54,346 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-26 13:18:54,353 INFO /home/kraus/.local/bin/bench schedule
+2026-02-26 13:18:54,353 INFO /home/kraus/.local/bin/bench worker
+2026-02-26 13:20:05,022 INFO /home/kraus/.local/bin/bench build
+2026-02-26 13:20:27,849 INFO /home/kraus/.local/bin/bench setup requirements
+2026-02-26 13:20:27,853 DEBUG uv pip install --quiet --upgrade pip --python /home/kraus/beta2/env/bin/python
+2026-02-26 13:20:28,314 LOG Installing frappe
+2026-02-26 13:20:28,315 DEBUG cd /home/kraus/beta2 && uv pip install --quiet --upgrade -e /home/kraus/beta2/apps/frappe  --python /home/kraus/beta2/env/bin/python
+2026-02-26 13:20:30,591 DEBUG cd /home/kraus/beta2 && uv pip install --quiet --upgrade coverage~=7.10.0 pyngrok~=7.5.0 unittest-xml-reporting~=3.2.0 watchdog~=6.0.0 hypothesis~=6.77.0 responses==0.23.1 freezegun~=1.5.5  --python /home/kraus/beta2/env/bin/python
+2026-02-26 13:20:31,100 DEBUG cd /home/kraus/beta2/apps/frappe && yarn install --check-files
+2026-02-26 13:20:44,644 LOG Installing glao_app
+2026-02-26 13:20:44,644 DEBUG cd /home/kraus/beta2 && uv pip install --quiet --upgrade -e /home/kraus/beta2/apps/glao_app  --python /home/kraus/beta2/env/bin/python
+2026-02-26 13:20:45,281 INFO A newer version of bench is available: 5.29.0 → 5.29.1
+2026-02-26 13:20:45,437 INFO /home/kraus/.local/bin/bench build
+2026-02-26 13:21:01,870 INFO /home/kraus/.local/bin/bench clear-cache
+2026-02-26 13:21:03,203 INFO /home/kraus/.local/bin/bench clear-website-cache
+2026-02-26 13:21:13,747 INFO /home/kraus/.local/bin/bench migrate
+2026-02-26 13:21:19,303 INFO /home/kraus/.local/bin/bench start
+2026-02-26 13:21:19,617 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-26 13:21:19,622 INFO /home/kraus/.local/bin/bench watch
+2026-02-26 13:21:19,625 INFO /home/kraus/.local/bin/bench worker
+2026-02-26 13:21:19,638 INFO /home/kraus/.local/bin/bench schedule
+2026-02-26 13:36:25,975 INFO /home/kraus/.local/bin/bench start
+2026-02-26 13:36:33,240 INFO /home/kraus/.local/bin/bench start
+2026-02-26 13:38:46,602 INFO /home/kraus/.local/bin/bench start
+2026-02-26 13:38:46,953 INFO /home/kraus/.local/bin/bench serve --port 8001
+2026-02-26 13:38:46,953 INFO /home/kraus/.local/bin/bench worker
+2026-02-26 13:38:46,970 INFO /home/kraus/.local/bin/bench watch
+2026-02-26 13:38:46,975 INFO /home/kraus/.local/bin/bench schedule
